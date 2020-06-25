@@ -126,4 +126,8 @@ h1, h2 {
   color: #ec9d53;
 }
 
+.img-carou {
+  max-height: 600px !important;
+}
+
 /*# sourceMappingURL=main.css.map */
