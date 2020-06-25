@@ -1,0 +1,140 @@
+// Variables
+$raleway: 'Raleway', sans-serif;
+$roboto: 'Roboto', sans-serif;
+$primary: #1E2D2F;
+$secondary: #E6E6E6;
+// $third: ;
+
+// #section1 {
+
+// }
+
+// #section2 {
+
+// }
+
+// #section3 {
+    
+// }
+
+.boxShadow {
+    border-radius: 5px;
+    background: #1E2D2F;
+    box-shadow:  9px 9px 31px #172223, -9px -9px 31px #26383b;
+}
+
+.iconsShadow {
+    border-radius: 50px;
+    box-shadow:  9px 9px 31px #172223, -9px -9px 31px #26383b;
+                 transition: 0.6s;
+}
+.iconsShadow:hover {
+    border-radius: 40px;
+    box-shadow:  15px 15px 40px #10191a, -9px -9px 31px #26383b;
+    transform: scale(1.1)
+}
+
+body {
+    color: $secondary;
+    background: $primary;
+}
+
+.peronalInfo {
+    height: 100%;
+}
+.software {
+    height: 50%;
+}
+.skills {
+    height: 35%;
+    margin-top: 12%;
+}
+
+.firstCol {
+    height: 95vh;
+}
+.secondCol {
+    height: 95vh;
+}
+.myRow {
+    width: 100vw;
+}
+
+.profilePic {
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h1, h2 {
+    font-family: $raleway;
+    font-weight: bold;
+}
+
+.aboutMe {
+    font-size: 0.9em;
+}
+
+.mini-title {
+    font-family: $raleway;
+    font-weight: bold;
+    font-size: 1.4em;
+
+    p {
+        font-family: $roboto;
+        font-size: 0.8em;
+        font-weight: lighter;
+    }
+}
+
+.svgIcons {
+    fill: white;
+	top: 0;
+    left: 0;
+    height: 40%;
+    width: 100%;
+}
+
+.softwareIcons {
+    height: 100%;
+}
+
+.experiences {
+    height: 90vh;
+    width: 30vw;
+}
+.education {
+    height: 90vh;
+    width: 30vw;
+}
+
+.socialIcons {
+    text-decoration: none;
+    color: white;
+    transition: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    font-size: 3rem;
+}
+.socialIcons:hover {
+    text-decoration: none;
+    color: rgb(205, 214, 255);
+    transform: scale(1.1);
+}
+
+.text-orange {
+    color: rgb(216, 119, 29);
+    transition: 0.3s;
+}
+.text-orange:hover {
+    color: rgb(236, 157, 83);
+}
+
